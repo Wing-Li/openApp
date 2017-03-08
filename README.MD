@@ -1,7 +1,7 @@
 # OpenApp
-Android 打开 Schema。
-***
+
 App 截图：
+
 ![](https://github.com/Wing-Li/openApp/blob/master/img/openApp.png)
 
 App 下载地址：[openApp](https://fir.im/sxar)
