@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lyl.openapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#CCCCCC"
+            android:gravity="left|center"
+            android:maxLines="1"
+            android:paddingLeft="16dp"
+            android:text="请输入链接地址"/>
+
+        <EditText
+            android:id="@+id/edt_uri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="open_uri"
+            android:text="打开uri"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:background="#CCCCCC"
+            android:gravity="left|center"
+            android:maxLines="1"
+            android:paddingLeft="16dp"
+            android:text="请输入应用包名"/>
+
+        <EditText
+            android:id="@+id/edt_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="open_shop"
+            android:text="打开应用商店"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:background="#CCCCCC"
+            android:gravity="left|center"
+            android:maxLines="1"
+            android:paddingLeft="16dp"
+            android:text="请输入位置城市名称"/>
+
+        <EditText
+            android:id="@+id/edt_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="open_map"
+            android:text="打开地图"/>
+
+
+    </LinearLayout>
+</ScrollView>
