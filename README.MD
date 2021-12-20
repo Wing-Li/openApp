@@ -4,7 +4,7 @@ App 截图：
 
 ![](https://github.com/Wing-Li/openApp/blob/master/img/openApp.png)
 
-App 下载地址：[openApp](https://fir.im/sxar)
+App 下载地址：[openApp](http://betaqa.lylyl.cn/sxar)
 
 ### 打开 URI 链接
 
